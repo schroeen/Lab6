@@ -7,7 +7,7 @@ class Tree {
   Tree() {
     treeName = "";
     treeType = "";
-    leavesFall = False;
+    leavesFall = false;
     leafColor = "";
 
   }
@@ -28,8 +28,8 @@ class Tree {
     treeType = aTreeType;
   }
 
-  void setLeavesFall(boolean leavesFall){
-    leavesFall = aLeavesFall
+  void setLeavesFall(boolean aLeavesFall){
+    leavesFall = aLeavesFall;
   }
 
   void setLeafColor(String aLeafColor) {
@@ -50,4 +50,9 @@ class Tree {
   String getLeafColor() {
     return leafColor;
   }
+
+  void print() {
+     
+    System.out.println("This is a "+treeName+" tree. It is a "+treeType+" and its leaves are currently "+leafColor+". It "+ leavesFall+" lose its leaves for the winter");
+  } 
 }

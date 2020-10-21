@@ -5,5 +5,8 @@ class Main {
 
     tree1.print();
     tree2.print();
+    tree1.setTreeName("Spruce");
+    tree1.setTreeType("Conifer");
+    tree1.print();
   }
 }
